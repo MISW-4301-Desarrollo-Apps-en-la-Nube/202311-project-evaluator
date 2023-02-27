@@ -386,7 +386,7 @@
 									"tests[\"Status should be 412\"] = responseCode.code == 412;",
 									"",
 									"let jsonData = JSON.parse(responseBody);",
-									"tests[\"Message should be correct\"] = jsonData.mssg == \"Las fechas no son válidas\";"
+									"tests[\"Message should be correct\"] = jsonData.msg == \"Las fechas no son válidas\";"
 								],
 								"type": "text/javascript"
 							}
@@ -503,7 +503,7 @@
 									"tests[\"Status should be 412\"] = responseCode.code == 412;",
 									"",
 									"let jsonData = JSON.parse(responseBody);",
-									"tests[\"Message should be correct\"] = jsonData.mssg == \"El usuario ya tiene una publicación para la misma fecha\";"
+									"tests[\"Message should be correct\"] = jsonData.msg == \"El usuario ya tiene una publicación para la misma fecha\";"
 								],
 								"type": "text/javascript"
 							}
