@@ -38,7 +38,7 @@
 									"const emailParts = email.split('@');",
 									"email = `${emailParts[0]}${timestamp}@${emailParts[1]}`;",
 									"",
-									"const username = pm.variables.replaceIn(\"{{$randomUserName}}\").toLowerCase();",
+									"const username = pm.variables.replaceIn(\"{{$randomLoremWord}}\").toLowerCase();",
 									"const password = pm.variables.replaceIn(\"{{$randomPassword}}\").toLowerCase();",
 									"",
 									"pm.collectionVariables.set('FIRST_USER_EMAIL', email);",
