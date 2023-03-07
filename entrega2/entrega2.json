@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "31c3141b-7547-456c-a983-85adfa1084d7",
+		"_postman_id": "eafde07d-c5ad-4c01-98d7-8c3c8efa03b1",
 		"name": "Entrega 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "1524525"
@@ -41,9 +41,9 @@
 									"const username = pm.variables.replaceIn(\"{{$randomLoremWord}}\").toLowerCase();",
 									"const password = pm.variables.replaceIn(\"{{$randomPassword}}\").toLowerCase();",
 									"",
-									"pm.collectionVariables.set('FIRST_USER_EMAIL', email);",
-									"pm.collectionVariables.set('FIRST_USER_NAME', username);",
-									"pm.collectionVariables.set('FIRST_USER_PASSWORD', password);"
+									"pm.collectionVariables.set('FIRST_USER_EMAIL', 'wr.ravelo@gmail.com');",
+									"pm.collectionVariables.set('FIRST_USER_NAME', 'william');",
+									"pm.collectionVariables.set('FIRST_USER_PASSWORD', '123456');"
 								],
 								"type": "text/javascript"
 							}
@@ -106,9 +106,9 @@
 									"const username = pm.variables.replaceIn(\"{{$randomLoremWord}}\").toLowerCase();",
 									"const password = pm.variables.replaceIn(\"{{$randomPassword}}\").toLowerCase();",
 									"",
-									"pm.collectionVariables.set('SECOND_USER_EMAIL', email);",
-									"pm.collectionVariables.set('SECOND_USER_NAME', username);",
-									"pm.collectionVariables.set('SECOND_USER_PASSWORD', password);"
+									"pm.collectionVariables.set('SECOND_USER_EMAIL', 'ca.forero10@uniandes.edu.co');",
+									"pm.collectionVariables.set('SECOND_USER_NAME', 'cesar');",
+									"pm.collectionVariables.set('SECOND_USER_PASSWORD', '123456');"
 								],
 								"type": "text/javascript"
 							}
@@ -280,12 +280,12 @@
 									"when.setDate(when.getDate() + 5);",
 									"when = formatDate(when);",
 									"",
-									"pm.collectionVariables.set('BAG_COST', bagCost);",
-									"pm.collectionVariables.set('SOURCE_AIRPORT_CODE', sourceAirportCode);",
-									"pm.collectionVariables.set('SOURCE_COUNTRY', sourceCountry);",
-									"pm.collectionVariables.set('DESTINY_AIRPORT_CODE', destinyAirportCode);",
-									"pm.collectionVariables.set('DESTINY_COUNTRY', destinyCountry);",
-									"pm.collectionVariables.set('WHEN', when);"
+									"pm.collectionVariables.set('BAG_COST', 300);",
+									"pm.collectionVariables.set('SOURCE_AIRPORT_CODE', 'LAX');",
+									"pm.collectionVariables.set('SOURCE_COUNTRY', 'USA');",
+									"pm.collectionVariables.set('DESTINY_AIRPORT_CODE', 'BOG');",
+									"pm.collectionVariables.set('DESTINY_COUNTRY', 'Colombia');",
+									"pm.collectionVariables.set('WHEN', '2022-03-11');"
 								],
 								"type": "text/javascript"
 							}
@@ -365,8 +365,8 @@
 									"plannedEndDate.setDate(plannedEndDate.getDate() + 6);",
 									"plannedEndDate = formatDate(plannedEndDate);",
 									"",
-									"pm.collectionVariables.set('PLANNED_START_DATE', plannedStartDate);",
-									"pm.collectionVariables.set('PLANNED_END_DATE', plannedEndDate);"
+									"pm.collectionVariables.set('PLANNED_START_DATE', '2022-03-08');",
+									"pm.collectionVariables.set('PLANNED_END_DATE', '2022-03-12');"
 								],
 								"type": "text/javascript"
 							}
@@ -690,11 +690,11 @@
 									"let destinyAirportCode = pm.variables.replaceIn(\"{{$randomCountryCode}}\");",
 									"let destinyCountry = pm.variables.replaceIn(\"{{$randomCountry}}\");",
 									"",
-									"pm.collectionVariables.set('BAG_COST', bagCost);",
-									"pm.collectionVariables.set('SOURCE_AIRPORT_CODE', sourceAirportCode);",
-									"pm.collectionVariables.set('SOURCE_COUNTRY', sourceCountry);",
-									"pm.collectionVariables.set('DESTINY_AIRPORT_CODE', destinyAirportCode);",
-									"pm.collectionVariables.set('DESTINY_COUNTRY', destinyCountry);",
+									"pm.collectionVariables.set('BAG_COST', 300);",
+									"pm.collectionVariables.set('SOURCE_AIRPORT_CODE', 'LTN');",
+									"pm.collectionVariables.set('SOURCE_COUNTRY', 'Inglaterra');",
+									"pm.collectionVariables.set('DESTINY_AIRPORT_CODE', 'MEC');",
+									"pm.collectionVariables.set('DESTINY_COUNTRY', 'Ecuador');",
 									"",
 									"let plannedStartDate = new Date();",
 									"plannedStartDate.setDate(plannedStartDate.getDate() + 2);",
@@ -704,8 +704,8 @@
 									"plannedEndDate.setDate(plannedEndDate.getDate() + 6);",
 									"plannedEndDate = formatDate(plannedEndDate);",
 									"",
-									"pm.collectionVariables.set('PLANNED_START_DATE', plannedStartDate);",
-									"pm.collectionVariables.set('PLANNED_END_DATE', plannedEndDate);"
+									"pm.collectionVariables.set('PLANNED_START_DATE', '2022-03-08');",
+									"pm.collectionVariables.set('PLANNED_END_DATE', '2022-03-12');"
 								],
 								"type": "text/javascript"
 							}
@@ -777,11 +777,11 @@
 									"const sizes = [\"LARGE\", \"MEDIUM\", \"SMALL\"];",
 									"const size = sizes[Math.floor(Math.random() * sizes.length)];",
 									"",
-									"pm.collectionVariables.set('DESCRIPTION', description);",
-									"pm.collectionVariables.set('FRAGILE', fragile);",
-									"pm.collectionVariables.set('OFFER', offer);",
-									"pm.collectionVariables.set('NEGATIVE_OFFER', -offer);",
-									"pm.collectionVariables.set('SIZE', size);"
+									"pm.collectionVariables.set('DESCRIPTION', \"Descripcion\");",
+									"pm.collectionVariables.set('FRAGILE', true);",
+									"pm.collectionVariables.set('OFFER', 200);",
+									"pm.collectionVariables.set('NEGATIVE_OFFER', -200);",
+									"pm.collectionVariables.set('SIZE', 'LARGE');"
 								],
 								"type": "text/javascript"
 							}
