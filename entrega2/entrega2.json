@@ -306,7 +306,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"sourceAirportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n    \"sourceCountry\": \"{{SOURCE_COUNTRY}}\",\n    \"destinyAirportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n    \"destinyCountry\": \"{{DESTINY_COUNTRY}}\",\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"sourceAirportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n    \"sourceCountry\": \"{{SOURCE_COUNTRY}}\",\n    \"destinyAirportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n    \"destinyCountry\": \"{{DESTINY_COUNTRY}}\",\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -387,7 +387,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -445,7 +445,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -497,7 +497,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_END_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_START_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_END_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_START_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -562,7 +562,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -614,7 +614,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -726,7 +726,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": {{BAG_COST}}\n}",
+							"raw": "{\n    \"plannedStartDate\": \"{{PLANNED_START_DATE}}\",\n    \"plannedEndDate\": \"{{PLANNED_END_DATE}}\",\n    \"origin\": {\n        \"airportCode\": \"{{SOURCE_AIRPORT_CODE}}\",\n        \"country\": \"{{SOURCE_COUNTRY}}\"\n    },\n    \"destiny\": {\n        \"airportCode\": \"{{DESTINY_AIRPORT_CODE}}\",\n        \"country\": \"{{DESTINY_COUNTRY}}\"\n    },\n    \"bagCost\": 300\n}",
 							"options": {
 								"raw": {
 									"language": "json"
