@@ -327,7 +327,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación campos faltantes",
+					"name": "RF03 - Creación de publicación campos faltantes",
 					"event": [
 						{
 							"listen": "test",
@@ -409,7 +409,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación token invalido",
+					"name": "RF03 - Creación de publicación token invalido",
 					"event": [
 						{
 							"listen": "test",
@@ -467,7 +467,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación fechas invalidas",
+					"name": "RF03 - Creación de publicación fechas invalidas",
 					"event": [
 						{
 							"listen": "test",
@@ -519,7 +519,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación reusando trayecto que ya existe",
+					"name": "RF03 - Creación de publicación reusando trayecto que ya existe",
 					"event": [
 						{
 							"listen": "test",
@@ -584,7 +584,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación donde ya existe",
+					"name": "RF03 - Creación de publicación donde ya existe",
 					"event": [
 						{
 							"listen": "test",
@@ -636,7 +636,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de publicación creando un nuevo trayecto",
+					"name": "RF03 - Creación de publicación creando un nuevo trayecto",
 					"event": [
 						{
 							"listen": "test",
@@ -753,7 +753,7 @@
 			"name": "Crear oferta",
 			"item": [
 				{
-					"name": "Creación de oferta campos faltantes",
+					"name": "RF04 - Creación de oferta campos faltantes",
 					"event": [
 						{
 							"listen": "test",
@@ -826,7 +826,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de oferta token invalido",
+					"name": "RF04 - Creación de oferta token invalido",
 					"event": [
 						{
 							"listen": "test",
@@ -877,7 +877,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de oferta publicación no existe",
+					"name": "RF04 - Creación de oferta publicación no existe",
 					"event": [
 						{
 							"listen": "test",
@@ -928,7 +928,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de oferta donde dueño de publicación es el mismo intentando crear oferta",
+					"name": "RF04 - Creación de oferta donde dueño de publicación es el mismo intentando crear oferta",
 					"event": [
 						{
 							"listen": "test",
@@ -979,7 +979,7 @@
 					"response": []
 				},
 				{
-					"name": "Creación de oferta",
+					"name": "RF04 - Creación de oferta",
 					"event": [
 						{
 							"listen": "test",
@@ -1048,7 +1048,7 @@
 			"name": "Obtener publicación",
 			"item": [
 				{
-					"name": "Obtener publicación token invalido",
+					"name": "RF05 - Obtener publicación token invalido",
 					"event": [
 						{
 							"listen": "test",
@@ -1101,7 +1101,7 @@
 					"response": []
 				},
 				{
-					"name": "Obtener publicación que no existe",
+					"name": "RF05 - Obtener publicación que no existe",
 					"event": [
 						{
 							"listen": "test",
@@ -1154,7 +1154,7 @@
 					"response": []
 				},
 				{
-					"name": "Obtener publicación usuario no tiene permisos para verla",
+					"name": "RF05 - Obtener publicación usuario no tiene permisos para verla",
 					"event": [
 						{
 							"listen": "test",
@@ -1207,7 +1207,7 @@
 					"response": []
 				},
 				{
-					"name": "Obtener publicación",
+					"name": "RF05 - Obtener publicación",
 					"event": [
 						{
 							"listen": "test",
